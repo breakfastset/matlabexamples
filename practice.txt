@@ -1,0 +1,136 @@
+
+
+Practice Paper
+
+[ A ]
+
+Perform the base conversions, showing all relevant working.
+0100 0111 to hexadecimal
+0111 1010 to decimal
+octal number 377 to hexadecimal
+octal number 455 to decimal
+decimal number 157 to base 2
+octal number 317 to base 2
+hexadecimal 3BCD to base 2
+
+
+Hexadecimal vs Octal numbers
+
+Evaluate Octal addition: 37 + 42
+Evaluate 34E + 4D4
+Evaluate binary addition 1010 + 1100
+
+
+Show how a 8 bit computer would evaluate each of the following expression in and represent the result in TWO’s complement form. 
+7 - 4
+-6 + 4
+
+
+
+
+[ B ]
+
+Using these matrices, 
+
+	Calculate the following:
+
+[z
+
+AB
+A + C
+A - C5
+Find a, b, c, d if D + E = Identity Matrix
+
+
+Write a MATLAB program using MATLAB commands to:
+Read 5 values (number of people) into a vector called people
+Read 5 values (age of people) into a vector called ages
+Plot a graph of ages against people using ‘.-‘ as line style and ‘o’ as marker.
+Print the output of median, mean, standard deviation and variance
+
+
+
+
+[C]
+
+Given that there are 2 files mat1.dat and mat1.dat containing values 10 float values and 10 integer values respectively, write MATLAB script to load the files into vec1 and vec2.
+
+Plot vec2 against vec1
+
+Complete each of the following related to LC-3 instructions:
+Write the 16-bit instruction for “Add the contents of R3 to the contents of R5 and store the result into R4”
+
+Explain what the following LC-3 instruction does:
+		0110 0111 1100 0101
+
+
+Through the use of truth tables, show that DeMorgan’s Law is true.
+
+
+
+
+
+[ D ]
+
+The von Neumann architecture is probably the most widely used model in computers used today. Complete the following:
+Draw a diagram of the von Neumann Model. 
+Explain each component of von Neumann Model
+
+Explain the roles of Memory Address Register and Memory Data Register with respect to loading and storing values
+
+
+Draw the block diagrams and truth tables for each of the following:
+
+OR
+
+NOT
+
+AND
+
+NAND
+
+NOR
+
+Half Adder
+
+Full Adder
+
+
+
+
+[ E ]
+
+Write a MATLAB program to calculate the BMI of a person.
+The program will ask for the weight and height of person in kg and m respectively.
+Display the BMI using the formula weight divided by square of height.
+
+
+Evaluate the following MATLAB programs and state the output. If the output has more than 1 answer, state the range of the output.
+
+
+some_num = randi([1,5]); disp(some_num);
+
+arr = ones(3); disp(arr);
+arr = zeros(10);
+disp(arr);
+
+arr = 2:10; result = sum(arr); disp(result);
+result = mean(arr);
+disp(result);
+
+arr = [3 8 4 10; 7 0 -1 3; 4 5 -3 7]; result = min(arr); disp(result);
+result = max(arr);
+disp(result);
+
+arr = [2 5 1 3 4 5]; result = cumprod(arr); disp(result);
+result = cumsum(arr);
+disp(result);
+
+
+
+
+
+
+
+
+
